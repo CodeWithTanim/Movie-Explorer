@@ -1,16 +1,38 @@
-# React + Vite
+# Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Explorer is a React-based web application that allows users to explore and search for movies and TV shows using the TVMaze API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse movies and TV shows
+- Search for movies and shows
+- View movie details
+- Movie details modal
+- Movie ratings and release dates
+- Genre information
+- Responsive design
+- Loading and empty states
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Tailwind CSS
+- TVMaze API
 
-## Expanding the ESLint configuration
+## API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project uses the TVMaze API to fetch movie and TV show data.
+
+API: https://api.tvmaze.com/shows
+
+Search API: https://api.tvmaze.com/search/shows?q={search}
+
+## Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+npm install
+npm run dev
+```
