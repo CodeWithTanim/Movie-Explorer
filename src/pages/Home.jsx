@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <div>
       {/* Navbar */}
-      <Navbar/>
-
+      <Navbar />
+      {/* Hero-Section */}
+      <Hero />
     </div>
   )
 }
