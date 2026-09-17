@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import heroBanner from "../assets/Hero-Banner.png";
 
 export default function Hero() {
   return (
     <section
       className="relative min-h-[calc(100vh-80px)] bg-cover bg-center"
       style={{
-        backgroundImage: "url('src/assets/Hero-Banner.png')",
+        backgroundImage: `url(${heroBanner})`,
       }}
     >
       {/* darkOverlay */}
