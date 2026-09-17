@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <img src={logo} alt="MovieExplorer Logo" className="h-12 w-auto" />
           {/* Copyright */}
-          <p className="mt-2 text-sm text-black-400">
+          <p className="mt-2 text-sm text-black">
             © 2026 MovieExplorer. All rights reserved.
           </p>
         </div>
@@ -18,21 +18,21 @@ export default function Footer() {
           {/* Facebook */}
           <a
             href="#"
-            className="text-sm text-black-400 transition hover:text-white"
+            className="text-sm text-black transition hover:text-red-600"
           >
             Facebook
           </a>
           {/* Instagram */}
           <a
             href="#"
-            className="text-sm text-black-400 transition hover:text-white"
+            className="text-sm text-black transition hover:text-red-600"
           >
             Instagram
           </a>
           {/* Twitter */}
           <a
             href="#"
-            className="text-sm text-black-400 transition hover:text-white"
+            className="text-sm text-black transition hover:text-red-600"
           >
             Twitter
           </a>
